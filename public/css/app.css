@@ -96,3 +96,10 @@ nav ul li a:hover{
 .panel-content p{
 	margin:20px;
 }
+footer{
+	height: 75px;
+	line-height: 75px;
+	color: #EDF2F3;
+	text-align: center;
+	background-color: rgba(143,97,126,1);
+}

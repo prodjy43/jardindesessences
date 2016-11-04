@@ -59,5 +59,8 @@
         </div>
       </div>
     </div>
+    <footer>
+      <p>Copyright &copy; aujardindesessences.ch made by Ivan&nbsp;Biedermann</p>
+    </footer>
   </body>
 </html>
