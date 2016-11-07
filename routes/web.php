@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home', ['title' => 'Accueil']);
+});
+Route::get('contact', function(){
+	return view('pages.contact', ['title' => 'contact']);
 });

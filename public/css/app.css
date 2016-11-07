@@ -19,6 +19,22 @@ nav{
 	height: 75px;
 	background-color: rgba(143,97,126,1);
 }
+nav ul.small{
+	position: fixed;
+	height: 100%;
+	width: 60%;
+	background-color: rgba(143,97,126,1);
+	box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+	left: -60%;
+	transition:all 0.5s, transform 0.5s;
+}
+nav ul.small.active{
+	left:0;
+}
+nav ul.small li{
+	display: block;
+	float: none !important;
+}
 nav ul li{
 	display: inline-block;
 	float: left;
@@ -34,6 +50,18 @@ nav ul li a{
 }
 nav ul li a:hover{
 	background-color: rgba(0,0,0,.16);
+}
+.menu-btn{
+	position: absolute;
+	background-color: rgba(0,0,0,.16);
+	padding:28px;
+	color: #EDF2F3;
+	cursor: pointer;
+	left: 0;
+	transition:all 0.5s, transform 0.5s;
+}
+.menu-btn.active{
+	left: 60%;
 }
 
 /* Banniére de l'accueil */
@@ -97,7 +125,7 @@ nav ul li a:hover{
 	margin:20px;
 }
 footer{
-	height: 75px;
+	min-height: 75px;
 	line-height: 75px;
 	color: #EDF2F3;
 	text-align: center;
