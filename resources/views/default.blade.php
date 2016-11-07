@@ -14,8 +14,9 @@
     <nav>
       <ul class="big hide-on-mobile hide-on-tablet">
         <li><a href="/">Accueil</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Préstations</a></li>
+        <li><a href="/horaires">Horaires</a></li>
+        <li><a href="#!">News</a></li>
+        <li><a href="#!">Préstations</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
       <div class="menu-btn hide-on-desktop">
@@ -23,8 +24,9 @@
       </div>
       <ul class="small hide-on-desktop">
         <li><a href="/">Accueil</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Préstations</a></li>
+        <li><a href="/horaires">Horaires</a></li>
+        <li><a href="#!">News</a></li>
+        <li><a href="#!">Préstations</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>

@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('contact', function(){
 	return view('pages.contact', ['title' => 'contact']);
 });
+Route::get('horaires', function(){
+	return view('pages.horaires', ['title' => 'Horaires']);
+});
